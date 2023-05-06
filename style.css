@@ -125,6 +125,13 @@ section.register {
 	border-radius: 100px;
 
 }
+
+@media only screen and (max-width: 768px) {
+  .register {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
 .paragraph {
 	display: flex;
 	flex-direction: column;
